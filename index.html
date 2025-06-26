@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feliz Día de la Novia 💖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff0f5;
+      color: #333;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-top: 1em;
+      color: #e91e63;
+    }
+
+    .mensaje {
+      margin: 1em auto;
+      max-width: 600px;
+      font-size: 1.2em;
+      padding: 0 1em;
+    }
+
+    .collage {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .collage img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .collage img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 2em;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>Feliz Día de la Novia 💕</h1>
+
+  <div class="mensaje">
+    Hoy es el Día de la Novia, y aunque aún no tenemos muchas fotos juntos, tengo algo aún más valioso  
+  fotos tuyas que reflejan tu luz y lo que me enamora de ti.  
+  Eres mi definición de belleza no solo por lo preciosa que sales en estas fotos, si no por quien eres. La forma
+  en la que eres conmigo, la bondad en tu corazón, la fuerza en ti, todo de ti define lo que es belleza para mi. Cuando te 
+  veo o te escucho, veo y escucho a la mujer que hace el mundo brillante solo por estar en el. 
+  Cada una de estas imágenes es una pequeña muestra de lo afortunado que soy de tenerte en mi vida.  
+  
+  Gracias por ser tú: sentimental, única, fuerte y maravillosa.  
+  Esta página es solo un detalle, pero lleva todo mi cariño.  
+  Te pienso, te admiro y te amo muchísimo. 💖
+  </div>
+  <button onclick="document.getElementById('bg-music').play(); this.style.display='none';" 
+          style="margin: 20px auto; padding: 10px 20px; font-size: 1em; background-color: #e91e63; color: white; border: none; border-radius: 8px; cursor: pointer;">
+    💗 Reproducir música
+  </button>
+  <div class="collage">
+    <img src="foto1.jpg" alt="Foto 1">
+    <img src="foto2.jpg" alt="Foto 2">
+    <img src="foto3.jpg" alt="Foto 3">
+    <img src="foto4.jpg" alt="Foto 4">
+    <img src="foto5.jpg" alt="Foto 5">
+    <img src="foto6.jpg" alt="Foto 6">
+  </div>
+
+  <footer>Con mucho amor 💖 – Tu petito</footer>
+  <audio id="bg-music" loop>
+    <source src="saborcaramelo.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+  
+
+</body>
+</html>
